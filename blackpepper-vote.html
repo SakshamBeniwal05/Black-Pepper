@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Pepper – Vote for Us!</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Lato:wght@400;700&display=swap');
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: #0d2d1c;
+      min-height: 100vh;
+      font-family: 'Lato', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 2rem 1rem 3rem;
+    }
+
+    .badge {
+      background: #C9A227;
+      color: #0d2d1c;
+      font-size: 1rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.35rem 1.1rem;
+      border-radius: 999px;
+      margin-bottom: 1.5rem;
+    }
+
+    .logo-ring {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      border: 3px solid #C9A227;
+      overflow: hidden;
+      margin-bottom: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .logo-ring img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      color: #C9A227;
+      font-size: clamp(1.6rem, 5vw, 2.4rem);
+      text-align: center;
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .subtitle {
+      color: #26C963;
+      font-size: clamp(1.6rem, 5vw, 2.4rem);
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      margin-bottom: 2rem;
+      letter-spacing: 0.05em;
+    }
+
+    .announcement {
+      background: #185432;
+      border: 1px solid #C9A22750;
+      border-radius: 16px;
+      padding: 1.5rem 1.75rem;
+      max-width: 560px;
+      width: 100%;
+      margin-bottom: 2.5rem;
+      color: #e8d99a;
+      font-size: 0.97rem;
+      line-height: 1.7;
+      text-align: center;
+    }
+
+    .announcement strong {
+      color: #FFD700;
+    }
+
+    .voting-options {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+      margin-bottom: 40px;
+      max-width: 560px;
+      width: 100%;
+    }
+
+    .vote-card {
+      background: rgba(255, 255, 255, 0.05);
+      border: 1px solid #26C963;
+      border-radius: 16px;
+      padding: 24px;
+      transition: transform 0.2s, background 0.2s;
+    }
+
+    .vote-card:hover {
+      background: rgba(255, 255, 255, 0.08);
+      transform: translateY(-2px);
+    }
+
+    .vote-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 22px;
+      font-weight: 600;
+      color: #C9A227;
+      margin-bottom: 16px;
+      text-align: center;
+    }
+
+    .vote-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      width: 100%;
+      background: gold;
+      color: #111;
+      font-size: 20px;
+      font-weight: bold;
+      text-decoration: none;
+      padding: 18px 24px;
+      border-radius: 12px;
+      border: none;
+      cursor: pointer;
+      transition: background-color 0.2s, transform 0.1s;
+    }
+
+    .vote-button:hover {
+      background: #ffec8b;
+    }
+
+    .vote-button:active {
+      transform: scale(0.98);
+    }
+
+    .vote-button svg {
+      width: 24px;
+      height: 24px;
+    }
+
+    .footer-note {
+      margin-top: 2.5rem;
+      color: #7eaa8a;
+      font-size: 0.82rem;
+      text-align: center;
+      max-width: 380px;
+      line-height: 1.6;
+    }
+
+    .divider {
+      width: 60px;
+      height: 2px;
+      background: #C9A22740;
+      border-radius: 2px;
+      margin: 0 auto 1.5rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="badge">Times Food &amp; Nightlife Awards · Dehradun</div>
+
+  <div class="logo-ring">
+    <img src="logo.png" alt="Black Pepper logo"
+      onerror="this.parentElement.style.background='#185432';this.style.display='none'">
+  </div>
+
+  <h1>Vote<br>Black Pepper <br></h1>
+  <hr style="border: 0.1px solid #26C963; width: 60%;">
+  <p class="subtitle">South Indian Vibes</p>
+
+  <div class="announcement">
+    We've been <strong>nominated</strong> for the Times Food &amp; Nightlife Awards! Show us your love with a quick
+    <strong>missed call</strong> It's free and takes just a second.
+    <div>Thank you for your incredible support! 🙏</div>
+  </div>
+
+  <div class="divider"></div>
+
+  <div class="voting-options">
+
+    <div class="vote-card">
+      <div class="vote-title">Best North Indian Restaurant</div>
+      <a href="tel:07315184889" class="vote-button">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+          </path>
+        </svg>
+        Vote Now — 07315184889
+      </a>
+    </div>
+
+    <div class="vote-card">
+      <div class="vote-title">Best South Indian Restaurant</div>
+      <a href="tel:07315184890" class="vote-button">
+        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+            d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z">
+          </path>
+        </svg>
+        Vote Now — 07315184890
+      </a>
+    </div>
+
+  </div>
+
+  <p class="footer-note">
+    Give a missed call to either number. No charge. No sign-up. Just one tap — and you've made our day! ✨
+  </p>
+
+</body>
+
+</html>
